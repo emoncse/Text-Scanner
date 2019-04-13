@@ -29,6 +29,7 @@ public class CropAndRotate extends AppCompatActivity implements View.OnClickList
         setSupportActionBar(toolbar);
         ViewCompat.setElevation(toolbar,10);
         toolbar.setOnMenuItemClickListener(this);
+        //emon
         Intent intent = getIntent();
         message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         cropImageView = (CropImageView) findViewById(R.id.cropImageView);
